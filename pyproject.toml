@@ -7,7 +7,9 @@ authors = [
     { name = "Tal Alon", email = "alon.tal@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pyside6>=6.12.0",
+]
 
 [project.scripts]
 lesson4b = "lesson4b:main"
